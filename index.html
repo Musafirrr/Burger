@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta name="viewport" content="width =device-width, initial-scale =1">
+    <title>Burgers</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="burgerstyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+
+    <section id="banner">
+        <img src="Burger_Shop_img/logo.png" class="logo">
+      <div class="banner-text">
+        <h1>Junk Studio</h1>
+        <p>Kill Your Hunger With Our Junky Burgers</p>
+      
+
+        <div class="banner-btn"> 
+            <a href="#"><span></span>Order Now</a>
+            <a href="#"><span></span>Make Your Own </a>
+        </div>
+    </div>
+    </section>
+    
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+            <li><a href="#banner">Home</a></li>    
+            <li><a href="#feature">Features</a></li>    
+            <li><a href="#Service">Best Junky</a></li>    
+            <li><a href="#testimonials">Coustmer Reviews</a></li>
+            <li><a href="#footer">Meet Us</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menuBtn">
+        <img src="Burger_Shop_img/menu.png" id="menu" style="position: sticky;">
+
+    </div>
+
+    <script>  
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+      
+        sideNav.style.right == "-250px"
+
+        menuBtn.onclick = function()
+        {
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src ="Burger_Shop_img/close.png"
+            }
+            else{
+                sideNav.style.right = "-250px";
+                menu.src ="Burger_Shop_img/menu.png"
+            }
+        }
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+    </script>
+   
+    <!-----------------Features----------->
+
+    <section id="feature">
+
+<div class="title-text">
+    <p>Features</p>
+    <h1>Why We Are Best</h1>
+</div>
+
+<div class="feature-box">
+    <div class="features">
+        <h1>Experienced Cheff</h1>
+        <div class="feature-desc">
+        <div class="feature-icon">
+            <i class="fa fa-shield" ></i>
+        </div>
+        <div class="feature-text">
+        <p>We are providing hijenic food and our cheff
+             is too much experienced in this field</p>
+            </div>
+
+        </div>
+        <h1>Fastest Delivery</h1>
+        <div class="feature-desc">
+        <div class="feature-icon">
+            <i class="fa fa-check-square-o" ></i>
+        </div>
+        <div class="feature-text">
+        <p>We are providing hijenic food and our cheff
+             is too much experienced in this field</p>
+            </div>
+
+        </div>
+        <h1>Affordable Cost</h1>
+        <div class="feature-desc">
+        <div class="feature-icon">
+            <i class="fa fa-dollar" ></i>
+        </div>
+        <div class="feature-text">
+        <p>We are providing hijenic food and our cheff
+             is too much experienced in this field</p>
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    <div class="feature-img">
+        <img src="Burger_Shop_img/staff.jpg" style="background: linear-gradient (rgba(0,0,0,0.5) ,#966e00) ;
+        " >
+    </div>
+</div>
+
+
+    </section>
+
+    <!-- Services -->
+    <section id="Service">
+        <div class="title-text">
+            <p>Junkies</p>
+            <h1>Our Best Meals</h1>
+        </div>
+        <div class="service-box">
+            <div class="single-service">
+                <img src="Burger_Shop_img/pic 1.jpg" >
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Chef</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit. 
+                         Soluta autem nobis aperiam praesentium
+                         quidem laboriosam odio quae natus nam molestias!</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="Burger_Shop_img/pic2.jpg" >
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Chef</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit. 
+                         Soluta autem nobis aperiam praesentium
+                         quidem laboriosam odio quae natus nam molestias!</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="Burger_Shop_img/pic 3.jpg" >
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Chef</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit. 
+                         Soluta autem nobis aperiam praesentium
+                         quidem laboriosam odio quae natus nam molestias!</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="Burger_Shop_img/pic 4.jpg" >
+                <div class="overlay"></div>
+                <div class="service-desc">
+                    <h3>Chef</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit. 
+                         Soluta autem nobis aperiam praesentium
+                         quidem laboriosam odio quae natus nam molestias!</p>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+    </section>
+    <!-- testimonials -->
+    
+
+<section id="testimonials">
+    <div class="title-text">
+        <p>Custmoer Reviews</p>
+        <h1>What Coustmer Say About Us</h1>
+    </div>
+    <div class="testimonials-row">
+        <div class="testimonials-col">
+            <div class="user">
+                <img src="Burger_Shop_img/img-1.jpg" >
+                <div class="user-info">
+
+                <h4>Valancia  <i class="fa fa-twitter" ></i></h4>
+                <small>@valanciaknor</small>
+            </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, aliqui
+                d quae impedit modi optio quasi rerum asperiores nihil ab autem.</p> 
+            </div>
+
+        <div class="testimonials-col">
+            <div class="user">
+                <img src="Burger_Shop_img/img-2.jpg" >
+                <div class="user-info">
+                    <h4>Valancia  <i class="fa fa-snapchat"  style="color: #f1ff27;"></i></h4>
+                    <small>@valanciaknor</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, aliqui
+                d quae impedit modi optio quasi rerum asperiores nihil ab autem.</p>
+        </div>
+
+        <div class="testimonials-col">
+            <div class="user">
+                <img src="Burger_Shop_img/img-3.jpg" >
+                <div class="user-info">
+                    <h4>Valancia  <i class="fa fa-instagram" style="color: #ff278c;"></i></h4>
+                    <small>@valanciaknor</small>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, aliqui
+                d quae impedit modi optio quasi rerum asperiores nihil ab autem.</p>
+        </div>
+    </div>    
+</section>
+ 
+<!-- footer -->
+<section id="footer">
+    <img src="Burger_Shop_img/footer.png" class="footer-img">
+    <div class="title-text">
+        <p>Contact Us</p>
+        <h1>Visit Our Resturent Today</h1>
+    </div>
+<div class="footer-row">
+    <div class="footer-left">
+<h1>Opening Hours</h1>
+<p> <i class="fa fa-clock-o"></i>Monday to Friday - 5am  to  2pm  </p>
+<p> <i class="fa fa-clock-o"></i>Saturday to Sunday - 5am  to  5pm </p>
+<p> <i class="fa fa-clock-o"></i>Online Service 24/7 Available </p>
+    </div>
+    <div class="footer-right">
+        <h1>Get In Touch</h1>
+        <p> <i class="fa fa-map-marker" ></i>1k Sector 11 1/2 OT , Karachi City PK</p>
+        <p> <i class="fa fa-paper-plane" ></i>afyanop@gmail.com</p>
+        <p> <i class="fa fa-phone"></i>+92 3161080288</p>
+    </div>
+</div>
+<div class="social-links">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-youtube"></i>
+    <p class="p">Website Crafted By Afyan Rizwani</p>
+</div>
+</section>
+
+   
+    
+</body>
+</html>
